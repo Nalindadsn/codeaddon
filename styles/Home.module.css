@@ -9,7 +9,6 @@
 }
 
 .main {
-  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -112,7 +111,10 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+#__next > div > div {
+  margin: 0;
+  padding: 0;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
